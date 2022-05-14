@@ -1,8 +1,26 @@
 <!DOCTYPE html>
 <html>
   <style>
-    .diamond-img {
-      width: 300px;
+    #box-container {
+      height: 500px;
+      display: flex;
+    }
+    .parent {
+      display: grid;
+      justify-content: center;
+  align-content: center;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+    }
+    .shop-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+    h2 {
+      text-align: center;
     }
   </style>
   <head>
@@ -21,23 +39,74 @@
       <a href="shop.html">Shop</a>
     </nav>
     <h1>Harmony Diamond</h1>
+
+    <center>
+      <iframe
+        width="800"
+        height="300"
+        src="https://www.youtube.com/embed/9spYHXQ4X6o?autoplay=1&showinfo=0&loop=1&playlist=9spYHXQ4X6o"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </center>
+    <br />
+    <center>
+      <a href="about.html">So what is the Harmony diamond?</a>
+    </center>
     <p>
-      Hi I am a pragraph.
-      <a href="https://en.wikipedia.org/wiki/Diamond"
-        >Read more about diamonds</a
-      >
-      . I like diamonds.
+      It is truly amazing andyou have to get one, it looks great, hireiw
+      fhdsewt. I fheiwu fhkshfrg igruhwd sherw, feheffsd. Yhrw fdhsket ,
+      weoogtrs.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+      sed elementum felis. Class aptent taciti sociosqu ad litora torquent per
+      conubia nostra, per inceptos himenaeos. Sed tristique risus quis libero
+      congue, vel lobortis nunc posuere. Aliquam tempus felis nec mauris
+      aliquet, eget luctus enim mollis. Nunc a rutrum nulla. Donec mattis justo
+      vehicula, blandit leo ut, faucibus quam. Praesent pellentesque magna quis
+      sem fringilla feugiat. Duis dapibus lacinia diam, eu tempor nulla mattis
+      quis. Etiam arcu felis, lacinia ac viverra sed, imperdiet a risus.
+      Phasellus ut leo dolor.
     </p>
-    <img
-      class="diamond-img"
-      src="https://media.istockphoto.com/photos/diamond-picture-id481365786?k=20&m=481365786&s=612x612&w=0&h=NCOQn5nJk3Vc_iDmrqp1EwCj-7Eq-NH8mWf0n9McWys="
-    />
-    <a href="about.html">So what is the Harmony diamond?</a>
-    <p>How can I order a diamond from this website?</p>
-    <ol>
-      <li>Choose a diamond</li>
-      <li>Add payment details</li>
-      <li>Choose your address for shipping</li>
-    </ol>
+    <center>
+      <a href="shop.html">Shop by shape</a>
+    </center>
+    <div class="parent">
+      <img
+        src="https://5.imimg.com/data5/SI/PN/WT/SELLER-2470489/2-00ct-real-cushion-cut-gia-certified-diamond-500x500.jpg"
+                width= "9 px"
+           class="shop-img"
+
+      />
+      <img
+        src="https://5.imimg.com/data5/XB/FF/DY/SELLER-40689674/princess-cut-diamond-500x500.png"
+        class="shop-img"
+          width="600 px"
+      />
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOIeFwDVtIGjHq9Ek5eYzO0n7deDSb6TfcSg&usqp=CAU"
+        class="shop-img"
+      />
+      <img
+        src="https://www.77diamonds.com/App/dist/images/filters/Heart.png" width="20px" height="20px"
+        class="shop-img"
+      />
+      <h2>Cushion</h2>
+      <h2>Princess</h2>
+      <h2>Oval</h2>
+      <h2>Heart</h2>
+    </div>
   </body>
+  <footer>
+    <p>Contact us:</p>
+
+    <address>
+      <br />
+      <a href="mailto:HarmonyDiamond.com">HarmonyDiamond.com</a><br />
+      <a href="tel:+13115552368">(311) 555-2368</a>
+      <br />
+      Tel Aviv, Hayarkon 11 <br />
+      Israel
+    </address>
+  </footer>
 </html>
