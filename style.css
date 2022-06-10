@@ -22,7 +22,6 @@
   color: #c4a29e;
 }
 h1 {
-  color: #c4a29e;
   padding: 30px;
   text-align: center;
   right: 50%;
@@ -33,4 +32,21 @@ h2 {
 
 img {
   width: 100%;
+}
+
+#what-is-it {
+  background-color: var(--piggy-pink);
+}
+
+body {
+  background-color: var(--mint-cream);
+  font-family: "Forum", sans-serif;
+}
+* {
+  /* CSS HSL */
+  --sky-blue-crayola: hsla(190, 82%, 72%, 1);
+  --celeste: hsla(173, 81%, 83%, 1);
+  --mint-cream: hsla(173, 33%, 95%, 1);
+  --piggy-pink: hsla(342, 67%, 90%, 1);
+  --cotton-candy: hsla(330, 70%, 83%, 1);
 }
