@@ -18,7 +18,7 @@
 }
 
 .navbar a:hover {
-  background: #ddd;
+  background: red;
   color: #c4a29e;
 }
 h1 {
@@ -27,10 +27,10 @@ h1 {
   text-align: center;
   right: 50%;
 }
-.diamond-img {
-  width: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+h2 {
+  text-align: center;
 }
 
+img {
+  width: 100%;
+}
