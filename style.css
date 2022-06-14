@@ -1,6 +1,6 @@
-header{
+header {
   position: fixed;
-  width:100%;
+  width: 100%;
   background-color: var(--cotton-candy);
 }
 h1 {
@@ -11,7 +11,7 @@ h2 {
 }
 
 img {
-  width: 100%;
+/*   width: 100%; */
 }
 
 #what-is-it {
@@ -31,16 +31,17 @@ img {
   height: 200px;
   background-size: cover;
 }
-#spacer{
+#spacer {
   height: 3rem;
 }
 body {
   background-color: var(--mint-cream);
   font-family: "Forum", sans-serif;
-  margin:0;
+  margin: 0;
 }
-section{
-  padding:15px;
+section {
+  padding: 15px;
+  width: 100%;
 }
 * {
   /* CSS HSL */
