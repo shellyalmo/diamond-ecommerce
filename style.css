@@ -1,25 +1,33 @@
 header {
   position: fixed;
   width: 100%;
-  background-color: var(--cotton-candy);
+  background-color: var(--eggplant);
 }
 h1 {
   text-align: center;
+  color: white;
 }
 h2 {
   text-align: center;
+  color: white;
 }
 
-img {
-/*   width: 100%; */
+img, object {
+  width: 100%;
 }
 
 #what-is-it {
-  background-color: var(--piggy-pink);
+  background-color: var(--mountbatten-pink);
+  color: white;
 }
 
 #how-is-made {
-  background-color: var(--celeste);
+  background-color: var(--light-gray);
+}
+
+#why-unique {
+  background-color: var(--byzantium);
+  color:white;
 }
 
 #where-to-get {
@@ -35,7 +43,7 @@ img {
   height: 3rem;
 }
 body {
-  background-color: var(--mint-cream);
+  background-color: var(--gainsboro);
   font-family: "Forum", sans-serif;
   margin: 0;
 }
@@ -45,9 +53,9 @@ section {
 }
 * {
   /* CSS HSL */
-  --sky-blue-crayola: hsla(190, 82%, 72%, 1);
-  --celeste: hsla(173, 81%, 83%, 1);
-  --mint-cream: hsla(173, 33%, 95%, 1);
-  --piggy-pink: hsla(342, 67%, 90%, 1);
-  --cotton-candy: hsla(330, 70%, 83%, 1);
+--gainsboro: hsla(163, 10%, 86%, 1);
+--light-gray: hsla(60, 2%, 81%, 1);
+--mountbatten-pink: hsla(292, 10%, 57%, 1);
+--byzantium: hsla(316, 35%, 35%, 1);
+--eggplant: hsla(339, 25%, 27%, 1);
 }
