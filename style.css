@@ -1,7 +1,7 @@
 header {
-  position: fixed;
+  position: relative;
   width: 100%;
-  background-color: var(--eggplant);
+  
 }
 h1 {
   text-align: center;
@@ -14,6 +14,10 @@ h2 {
 
 img, svg {
   width: 100%;
+}
+
+#header {
+  background-color: var(--eggplant);
 }
 
 #what-is-it {
@@ -33,6 +37,15 @@ img, svg {
 #where-to-get {
   background-color: var(--sky-blue-crayola);
 }
+
+#logo-photo {
+  /* background-image: url("./logo.jpeg"); */
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  color: black;
+}
+
 #cover-photo {
   background-image: url("https://cdn.glitch.global/2014eb2a-79d2-495c-aae8-d312c17d0115/pexels-the-glorious-studio-9651419.jpg?v=1654871312350");
   width: 100%;
