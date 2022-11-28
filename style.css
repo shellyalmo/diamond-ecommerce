@@ -1,44 +1,51 @@
-header {
-  position: relative;
-  width: 100%;
-  
-}
-h1 {
-  text-align: center;
-  color: white;
-}
+
 h2 {
   text-align: center;
-  color: white;
+  font-size: 1.5rem;
+  font-weight: 550;
 }
 
-img, svg {
+/* img {
   width: 100%;
+} */
+
+.header {
+  background-color: var(--logo-background);
+  color: rgb(2, 2, 2);
 }
 
-#header {
-  background-color: var(--eggplant);
-}
-
-#what-is-it {
-  background-color: var(--mountbatten-pink);
+.shop-section {
+  background-color: var(--shop-section-background);
   color: white;
+  /* font-weight: 700; */
+  
 }
 
-#how-is-made {
-  background-color: var(--light-gray);
+.shop-section :hover{
+  font-weight: 600;
+  font-size: 1.55rem;
+
 }
 
-#why-unique {
+.pointer {
+  cursor: pointer;
+}
+
+.lab-gallery {
+  color: rgb(11, 11, 11);
+
+}
+
+.our-story-section {
   background-color: var(--byzantium);
-  color:white;
+  color: rgb(8, 8, 8);
 }
 
-#where-to-get {
+.where-to-get {
   background-color: var(--sky-blue-crayola);
 }
 
-#logo-photo {
+.logo-photo {
   /* background-image: url("./logo.jpeg"); */
   width: 100%;
   height: 200px;
@@ -46,17 +53,10 @@ img, svg {
   color: black;
 }
 
-#cover-photo {
-  background-image: url("https://cdn.glitch.global/2014eb2a-79d2-495c-aae8-d312c17d0115/pexels-the-glorious-studio-9651419.jpg?v=1654871312350");
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-}
-#spacer {
+.spacer {
   height: 3rem;
 }
 body {
-  background-color: var(--gainsboro);
   font-family: "Forum", sans-serif;
   margin: 0;
 }
@@ -66,9 +66,16 @@ section {
 }
 * {
   /* CSS HSL */
---gainsboro: hsla(163, 10%, 86%, 1);
---light-gray: hsla(60, 2%, 81%, 1);
---mountbatten-pink: hsla(292, 10%, 57%, 1);
---byzantium: hsla(316, 35%, 35%, 1);
---eggplant: hsla(339, 25%, 27%, 1);
+  --gainsboro: #fe7f6c;
+  --how-made: #fec1b2;
+  --shop-section-background: #f0a1a5;
+  --byzantium: #fbc8d6;
+  --logo-background: rgb(253, 247, 250);
+}
+
+@media (orientation: landscape) and (min-width: 1080px) {
+  p {
+    color: rgb(6, 6, 6);
+    font-size: 36px;
+  }
 }
