@@ -1,30 +1,43 @@
-
 h2 {
-  text-align: center;
-  font-size: 1.5rem;
+  font-size: 60px;
   font-weight: 550;
 }
 
-/* img {
-  width: 100%;
-} */
+body {
+  font-family: "Forum", sans-serif;
+  /* margin: 5px; */
+}
+section {
+  padding: 10px;
+  margin: 0 auto;
+  width: 90%;
+}
 
+.logo-photo {
+  background-size: cover;
+  color: black;
+}
 .header {
   background-color: var(--logo-background);
   color: rgb(2, 2, 2);
 }
 
-.shop-section {
-  background-color: var(--shop-section-background);
+.about-section {
+  background-color: var(--about-section-background);
   color: white;
-  /* font-weight: 700; */
-  
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  line-height: 60px;
 }
 
-.shop-section :hover{
-  font-weight: 600;
-  font-size: 1.55rem;
+.shop-section {
+  /* font-weight: 700; */
+}
 
+.shop-section :hover {
+  font-weight: 600;
+  font-size: 2.55rem;
 }
 
 .pointer {
@@ -33,7 +46,6 @@ h2 {
 
 .lab-gallery {
   color: rgb(11, 11, 11);
-
 }
 
 .our-story-section {
@@ -45,37 +57,34 @@ h2 {
   background-color: var(--sky-blue-crayola);
 }
 
-.logo-photo {
-  /* background-image: url("./logo.jpeg"); */
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  color: black;
-}
-
 .spacer {
   height: 3rem;
-}
-body {
-  font-family: "Forum", sans-serif;
-  margin: 0;
-}
-section {
-  padding: 15px;
-  width: 100%;
 }
 * {
   /* CSS HSL */
   --gainsboro: #fe7f6c;
   --how-made: #fec1b2;
-  --shop-section-background: #f0a1a5;
+  --about-section-background: #f0a1a5;
   --byzantium: #fbc8d6;
   --logo-background: rgb(253, 247, 250);
 }
 
-@media (orientation: landscape) and (min-width: 1080px) {
+@media (orientation: portrait) and (max-width: 1259px) {
   p {
     color: rgb(6, 6, 6);
-    font-size: 36px;
+    font-size: 20px;
+  }
+  section {
+    max-width: 90%;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 1259px) {
+  p {
+    color: rgb(6, 6, 6);
+    font-size: 20px;
+  }
+  section {
+    max-width: 90%;
   }
 }
